@@ -10,7 +10,7 @@ jobs:
     if: github.repository != 'Silverlan/pr_module_template'
     with:
       repository: 'Silverlan/pr_luadoc'
-      branch: 'main'
+      branch: 'develop'
       os: windows
     secrets:
       repository_token: ${{ secrets.REPO_ACCESS_TOKEN }}
