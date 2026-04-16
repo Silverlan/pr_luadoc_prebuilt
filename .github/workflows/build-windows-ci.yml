@@ -2,6 +2,8 @@ name: Build - Windows
 
 on:
   workflow_dispatch:
+  repository_dispatch:
+    types: [trigger-build]
   push:
 
 jobs:
